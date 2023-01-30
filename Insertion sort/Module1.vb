@@ -21,7 +21,7 @@
             MyArray(insert) = temp
         Next
 
-        For count = 0 To maxsize
+        For count = 0 To 6
             Console.WriteLine(count & ": " & MyArray(count))
         Next
         Console.ReadKey()
